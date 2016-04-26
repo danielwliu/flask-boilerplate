@@ -1,10 +1,104 @@
 {% extends 'layouts/main.html' %}
 {% block title %}Home{% endblock %}
 {% block content %}
-
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 <div class="page-header">
-  <h1>Sticky footer with fixed navbar</h1>
+  <h1>Welcome to StudyBuds</h1>
 </div>
-<p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>
+<p class="lead"> My Classes </code></p>
+	<div class="container-fluid">
+		<div class="row">
+  			<div class="col-xs-10">ORF 307: Optimization
+  					<div id="demo" class="collapse">
+						<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#available">Show Available People</button>
+  						<div id="available" class="collapse">
+    						List of available people in table form
+  						</div>
+					</div>
+			</div>
+  			<div class="col-xs-1">
+  			<div class="btn-group" data-toggle="buttons">
+  				<span data-toggle="tooltip" title="Go Online for this Class">
+  					<button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="collapse" data-target="#demo" >
+  					<span class="glyphicon glyphicon-book" aria-hidden="true" data-toggle="tooltip" title="Go Online for this Class"></span>
+					</button>
+				</span>
+			</div>
+				
+				
 
+  
+  			</div>
+  			<div class="col-xs-1">
+  			<div class="btn-group" data-toggle="buttons">
+  				<span href="#" data-toggle="tooltip" title="Turn on Notifications for this class">
+  					<button type="button" class="btn btn-default" aria-label="Left Align">
+  					<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+					</button>
+				</span>
+			</div>
+  			
+  			</div>
+  			
+  		
+			
+		</div>
+		<hr>
+		<div class="row">
+  			<div class="col-xs-10">ORF 401: E-Commerce
+  					<div id="demo2" class="collapse">
+						<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#available2">Show Available People</button>
+  						<div id="available2" class="collapse">
+    						List of available people in table form
+  						</div>
+					</div>
+			</div>
+  			<div class="col-xs-1">
+  				<div class="btn-group" data-toggle="buttons">
+  				<button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="collapse" data-target="#demo2">
+  				<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+				</button>
+				</div>
+
+  
+  			</div>
+  			<div class="col-xs-1">
+  			<div class="btn-group" data-toggle="buttons">
+  				<button type="button" class="btn btn-default" aria-label="Left Align">
+  				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+				</button>
+			</div>
+  			
+  			</div>
+		</div>
+		<hr>
+		<div class="row">
+  			<div class="col-xs-10">ECO 310: Microeconomics: A Mathematical Approach
+  					<div id="demo3" class="collapse">
+						<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#available3">Show Available People</button>
+  						<div id="available3" class="collapse">
+    						List of available people in table form
+  						</div>
+					</div>
+			</div>
+  			<div class="col-xs-1">
+  				<div class="btn-group" data-toggle="buttons">
+  				<button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="collapse" data-target="#demo3">
+  				<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+				</button>
+				</div>
+
+  
+  			</div>
+  			<div class="col-xs-1">
+  				<div class="btn-group" data-toggle="buttons">
+  					<button type="button" class="btn btn-default" aria-label="Left Align">
+  					<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+					</button>
+				</div>
+  			
+  			</div>
+		</div>
+		<hr>
+	</div>
 {% endblock %}
